@@ -1,4 +1,4 @@
-var paragraph = document.getElementsByTagName('h2')[0];
+var paragraph = document.getElementsById('rainbow');
 
 function textEffect(animationName) {
   var text = paragraph.innerHTML,
