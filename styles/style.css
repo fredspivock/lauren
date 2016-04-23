@@ -1,3 +1,126 @@
 body {
 	font-family: 'Ubuntu', sans-serif;
 }
+
+@import url("http://fonts.googleapis.com/css?family=Luckiest+Guy");
+html, body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Luckiest Guy', Helvetica, Arial;
+  text-transform: uppercase;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+body {
+  -webkit-animation: rainbow-bg 4s infinite linear;
+  -moz-animation: rainbow-bg 4s infinite linear;
+  -o-animation: rainbow-bg 4s infinite linear;
+  animation: rainbow-bg 4s infinite linear;
+}
+
+p {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4em;
+  line-height: 2em;
+}
+
+i {
+  display: inline-block;
+  font-style: normal;
+  padding: 0 0.05em;
+  color: transparent;
+}
+
+i.rainbow {
+  -webkit-animation: rainbow 2s infinite linear;
+  -moz-animation: rainbow 2s infinite linear;
+  -o-animation: rainbow 2s infinite linear;
+  animation: rainbow 2s infinite linear;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    color: red;
+  }
+  4.16667%, 95.83333% {
+    color: #ff8000;
+  }
+  8.33333%, 91.66667% {
+    color: yellow;
+  }
+  12.5%, 87.5% {
+    color: #80ff00;
+  }
+  16.66667%, 83.33333% {
+    color: lime;
+  }
+  20.83333%, 79.16667% {
+    color: #00ff80;
+  }
+  25%, 75% {
+    color: cyan;
+  }
+  29.16667%, 70.83333% {
+    color: #0080ff;
+  }
+  33.33333%, 66.66667% {
+    color: blue;
+  }
+  37.5%, 62.5% {
+    color: #8000ff;
+  }
+  41.66667%, 58.33333% {
+    color: magenta;
+  }
+  45.83333%, 54.16667% {
+    color: #ff0080;
+  }
+  50%, 50% {
+    color: red;
+  }
+}
+@-webkit-keyframes rainbow-bg {
+  0% {
+    background: red;
+  }
+  4.16667%, 95.83333% {
+    background: #ff8000;
+  }
+  8.33333%, 91.66667% {
+    background: yellow;
+  }
+  12.5%, 87.5% {
+    background: #80ff00;
+  }
+  16.66667%, 83.33333% {
+    background: lime;
+  }
+  20.83333%, 79.16667% {
+    background: #00ff80;
+  }
+  25%, 75% {
+    background: cyan;
+  }
+  29.16667%, 70.83333% {
+    background: #0080ff;
+  }
+  33.33333%, 66.66667% {
+    background: blue;
+  }
+  37.5%, 62.5% {
+    background: #8000ff;
+  }
+  41.66667%, 58.33333% {
+    background: magenta;
+  }
+  45.83333%, 54.16667% {
+    background: #ff0080;
+  }
+  50%, 50% {
+    background: red;
+  }
+}
